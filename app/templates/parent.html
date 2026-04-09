@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Parent Dashboard</title>
+  <link rel="stylesheet" href="/static/styles.css"/>
+</head>
+<body>
+  <main class="container">
+    <header class="header-row">
+      <h1>Parent Dashboard</h1>
+      <a class="btn" href="/">Home</a>
+    </header>
+
+    <section class="card">
+      <h2>Students</h2>
+      <table>
+        <thead><tr><th>Name</th><th>Math Level</th><th>Reading Level</th><th>Open Tasks</th><th>Completed</th><th></th></tr></thead>
+        <tbody>$student_rows</tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>Content Rights Snapshot</h2>
+      <p class="muted">Legal-clean model: original/permissioned content can be hosted; third-party content can be linked when needed.</p>
+      <table>
+        <thead><tr><th>Source</th><th>License</th><th>Hosting Mode</th><th>Attribution</th><th>Embed Allowed</th></tr></thead>
+        <tbody>$source_rows</tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>
