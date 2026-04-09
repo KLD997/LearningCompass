@@ -1,0 +1,56 @@
+{
+  "hosted_text_lesson": {
+    "title": "Intro to Addition Within 10",
+    "slug": "intro-addition-within-10",
+    "subject": "math",
+    "grade_band": "K-1",
+    "estimated_duration": 12,
+    "lesson_mode": "hosted_text",
+    "source_type": "original",
+    "content_body": "Use counters to model addition sentences up to 10.",
+    "mastery_threshold": 80,
+    "assessment": {
+      "assessment_type": "multiple_choice",
+      "passing_score": 80,
+      "items": 5
+    }
+  },
+  "external_link_lesson": {
+    "title": "Counting Practice",
+    "slug": "counting-practice-external",
+    "subject": "math",
+    "lesson_mode": "external_link",
+    "source_type": "curated_link",
+    "source_name": "Khan Academy",
+    "external_url": "https://www.khanacademy.org/",
+    "completion_mode": "parent_confirm",
+    "followup_quiz": true
+  },
+  "theology_track_lesson": {
+    "title": "What Is Revelation?",
+    "slug": "what-is-revelation",
+    "subject": "theology",
+    "track": "LDS Foundations",
+    "age_range": "11-13",
+    "lesson_mode": "hosted_text",
+    "fairness_prompt": false
+  },
+  "cs_terminal_task_lesson": {
+    "title": "Create Files from Terminal",
+    "slug": "cs-terminal-create-files",
+    "subject": "computer-science",
+    "track": "Systems Literacy",
+    "age_range": "12-14",
+    "lesson_mode": "offline_activity",
+    "task_checklist": [
+      "Open terminal",
+      "Create directory named project1",
+      "Create readme.txt",
+      "List files and explain output"
+    ],
+    "rubric": {
+      "correct_commands": 4,
+      "explanation_quality": "basic"
+    }
+  }
+}
